@@ -29,7 +29,7 @@ This set of Matlab (7.0) functions contain the core code to reproduce some resul
   * multi_runs_50.m     ----> generate the "MT 50%" curve for Fig.3
   * multi_runs_25.m     ----> generate the "MT 25%" curve for Fig.3
 
-#LICENSE#
+## LICENSE
 Distribution and use of this code is subject to the following agreement:
 
 This Program is provided by Duke University and the authors as a service
