@@ -4,7 +4,7 @@ This set of Matlab (7.0) functions contain the core code to reproduce some resul
 1. [Bayesian Compressive Sensing](http://shihaoji.com/papers/BCS_preprint.pdf), Shihao Ji, Ya Xue, and Lawrence Carin, IEEE Trans. Signal Processing, vol. 56, no. 6, June 2008.
 2. [Multi-Task Compressive Sensing](http://shihaoji.com/papers/MT_CS_preprint.pdf), Shihao Ji, David Dunson, and Lawrence Carin, IEEE Trans. Signal Processing, vol. 57, no. 1, pp. 92-106, Jan. 2009.
 
-## BCS_demo
+## BCS demo
 
 * Fig2.m ---> generate Fig.2
   * The following two Matlab files from l1-magic are required for BP implementation:
@@ -18,16 +18,15 @@ This set of Matlab (7.0) functions contain the core code to reproduce some resul
   * multi_approx_measures.m     ----> generate the "Approx." curve for Fig.4a
 
 
-##MT_CS_demo
-
-***A bug was fixed on Aug. 03, 2008 in MT_CS.m for the cases where signals are dramatic undersampled.***
-
+## MT-CS demo
 * Fig2.m ---> generate Fig.2
 
 * Fig3.m ---> generate Fig.3
   * multi_runs_75.m     ----> generate the "MT 75%" curve for Fig.3
   * multi_runs_50.m     ----> generate the "MT 50%" curve for Fig.3
   * multi_runs_25.m     ----> generate the "MT 25%" curve for Fig.3
+  
+***A bug was fixed on Aug. 03, 2008 in MT_CS.m for the cases where signals are dramatic undersampled.***
 
 ## LICENSE
 Distribution and use of this code is subject to the following agreement:
